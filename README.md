@@ -1,32 +1,29 @@
 <h1>Visão Geral</h1>
 <p>Esta é uma API RESTful desenvolvida em Node.js utilizando o framework Express.js para lidar com solicitações HTTP e o Mongoose como ODM (Object-Document Mapper) para interagir com um banco de dados MongoDB. A API permite realizar operações CRUD (Create, Read, Update, Delete) em uma coleção de pessoas.</p>
 
-<h3>Funcionalidades</h3>
+<h2>Funcionalidades</h2>
 <li>Criação de Pessoas: Permite criar uma nova pessoa fornecendo seu nome, idade e status de aprovação.</li>
 <li>Listagem de Pessoas: Recupera todas as pessoas cadastradas no banco de dados.</li>
 <li>Recuperação de Pessoa por ID: Retorna os detalhes de uma pessoa específica com base em seu ID.</li>
 <li>Atualização de Pessoa: Permite atualizar os detalhes de uma pessoa existente.</li>
 <li>Exclusão de Pessoa: Remove uma pessoa do banco de dados com base em seu ID.</li>
 
-<h3>Componentes Principais</h3>
-<li>Express.js:</li>
+<h2>Componentes Principais</h2>
+<li>Express.js</li>
 <i>O Express.js é um framework web para Node.js que simplifica o processo de criação de aplicativos web e APIs RESTful. Ele fornece uma série de recursos para lidar com solicitações HTTP, roteamento e muito mais.</i>
-
-
-<li>Mongoose:</li>
+ <br>  </br> 
+<li>Mongoose</li>
 <i>É uma biblioteca do Node.js que fornece uma interface elegante e simples para modelar os dados da aplicação e interagir com o MongoDB. Ele permite definir modelos de dados com esquemas, facilitando a validação e manipulação dos dados.</i>
-
-
+  <br>  </br> 
 <li>MongoDB</li>
 <i>O MongoDB é um banco de dados NoSQL de alto desempenho, orientado a documentos. Ele armazena dados em formato JSON-like (BSON) e oferece escalabilidade e flexibilidade para aplicativos modernos.</i>
-
-<h3>Rotas da API</h3>
+ <br>  </br> 
+<h2>Rotas da API</h2>
 <li>POST /person: Cria uma nova pessoa no banco de dados.</li>
 <li>GET /person: Retorna todas as pessoas cadastradas.</li>
 <li>GET /person/:id: Retorna os detalhes de uma pessoa específica com base em seu ID.</li>
 <li>PATCH /person/:id: Atualiza os detalhes de uma pessoa existente.</li>
 <li>DELETE /person/:id: Exclui uma pessoa do banco de dados com base em seu ID.</li>
-
 
 <h2>Modelo de Dados</h2>
 
